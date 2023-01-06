@@ -1,0 +1,59 @@
+body{
+    background-color:#C23730;
+    color: #0D5D98;
+}
+#main{
+border-radius: 5%;
+width: 75%;
+margin: auto;
+padding: 10px;
+margin-top: 15%;
+border-color: #717171;
+}
+#title{
+    border-style: solid;
+    width: 75%;
+    border-radius: 5%;
+    text-align: center;
+    margin-left: 10%;
+    border-color: #717171;
+}
+#super{
+    border-style: solid;
+    margin-top: 10%;
+    width: 90%;
+    padding: 10px;
+    border-color: #717171;
+}
+#logIn{
+    border-style: solid;
+    margin-top: 10%;
+    padding: 10px;
+    border-color: #717171;
+}
+#btn{
+    margin-top: 10%;
+    margin-left: 30%;
+}
+#go{
+    margin-top: 5%;
+    
+}
+.arrow{
+    content: "\2192";
+}
+.conts{
+    padding: 10px;
+}
+#go{
+    text-align: center;
+}
+#logInd{
+    text-align: center;
+}
+div h4{
+    color: aliceblue;
+}
+#acc{
+position: absolute;
+}
