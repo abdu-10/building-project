@@ -1,0 +1,48 @@
+*{
+    background-color: azure;
+    width: 100%;
+}
+.maincontainer{
+    width: 95%;
+
+}
+.navbar{
+    display: flex;
+}
+.tittletext{
+    width: 25vw;
+}
+.links{
+    width: 75vw;
+    justify-content: space-between;
+}
+li{
+    display: inline;
+    padding-right: 0;
+    margin-right: 5px;
+    font-size: larger;
+    font-weight: 600;
+}
+/* img{
+    border-radius: 50%;
+} */
+.imagecontainer{
+    height: 30%;
+}
+.imagecontainer img{
+    border-radius: 10px;
+}
+
+.postdetails h4{
+    margin: 2px;
+}
+.reaction{
+    display: flex;
+}
+.reaction h3 i{
+    margin: 10px;
+    display: inline;
+}
+.formcontainer{
+    width: 90%;
+}

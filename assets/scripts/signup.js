@@ -21,7 +21,12 @@ function handleSubmit(e) {
     .then( (userObject) => {
         if (userObject !== {} || ""){
             //replace here with autologin
-            window.location.replace("https://abdu-10.github.io/building-project/index.html");
+
+            //use this in local dev
+            window.location = "../../index.html"
+
+            //use this in gh depoly
+            //window.location.replace("https://abdu-10.github.io/building-project/index.html");
             alert("Account created successfully, proceed to log in");
         }else{
             console.log("Error creating account")
