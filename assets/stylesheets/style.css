@@ -1,0 +1,57 @@
+body{
+    background-color: #cc4938;
+    color: #2C558F;
+}
+
+.arrow{
+    content: "\2192";
+}
+.maincont{
+    text-align: center;
+}
+.title{
+    border-style: solid;
+    border-radius: 5%;
+    border-width: 80%;
+    border-color: #A4A4A4;
+}
+
+.formwrap{
+  border-style: solid;
+  margin-top: 10%;
+  border-radius: 10%;
+  border-color: #A4A4A4;
+  margin-bottom: 20%;
+  
+}
+.statustext{
+  
+  border-style: solid;
+  margin-top: 5%;
+  border-radius: 5%;
+  border-color: #A4A4A4;
+}
+
+input{
+  margin: 30px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid rgb(97, 94, 94);
+}
+
+label{
+    font-size: large;  
+}
+
+#noacc{
+ font-size: medium;
+}
+ 
+.link{
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+}

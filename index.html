@@ -4,33 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./assets/stylesheets/style.css">
 </head>
-<div id="main">
-    <div id="title">
-        <h4>Happy To Have You</h4>
-    </div>
-    <div id="super">
-        <h4>Create Account</h4>
-<form id="creden">
-    <label for="UserName">UserName:</label>
-    <input type="text"name="UserName" required><br>
-    <label for="City">City:</label><br>
-    <input type="text"name="City" required><br>
-    <label for="ImageUrl">ImageUrl:</label><br>
-    <input type="url"name="Image" required><br>
-    <label for="Password">Password:</label><br>
-    <input type="text"name="Password" required><br>
-</form>
-<button id="btn">Create Account</button>
-    </div>
-    <div id="logIn">
-        <h4>Account Succesfully, Log In</h4>
-    </div>
-</div>
-
 <body>
-    <script src="./index.js"></script>
+    <div class="maincont">
+        <div class="title">
+            <h3>Welcome to TruckyChat</h3>
+        </div>
+        <div class="formwrap">
+            <h3>Log In</h3>
+            <form id="createacc">
+                <label for="uname">Username:</label>
+                <input type="text" name="uname" id="uname" required> <br>
+                <label for="upass">Password:</label>
+                <input type="password" name="upass" id="upass" required> <br>
+                <button><h4>Go <span class="arrow">&#8594;</span></h4></button>                            
+            </form>
+            <h5 id="noacc">No Account, <span id="newuser" class="link"><a href="./static/signup.html">Create Account</a></span></h5>  
+        </div>       
+    </div>
+    <script src="./assets/scripts/login.js"></script>
 </body>
 </html>
