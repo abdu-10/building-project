@@ -21,7 +21,7 @@ function handleSubmit(e) {
     .then( (userObject) => {
         if (userObject !== {} || ""){
             //replace here with autologin
-            window.location.assign("../../index.html");
+            window.location.assign("./index.html");
             alert("Account created successfully, proceed to log in");
         }else{
             console.log("Error creating account")

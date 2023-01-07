@@ -21,7 +21,7 @@ function showUser(object){
     attemptlog.push(object.username)
     attemptlog.push(object.password)
     if (attemptlog[0] == loggingInUser.name && attemptlog[1] == loggingInUser.password){
-        window.location = "../../static/home.html"
+        window.location = "../static/home.html"
     }else{
         console.log("invalid username or password")
     }
